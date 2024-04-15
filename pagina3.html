@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo01.css">
+    <link rel="icon" href="CSS/index/icono.png">
+    <title>Astro</title>
+</head>
+<body>
+    <!-- 3 párrafos, 3 imágenes y 2 componentes de Bootstrap -->
+    <nav class="navbar fondonav1 navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand me-md-5 hover1 marca" href="index.html"> <img src="CSS/index/icono.png" alt="Icono" class="icono"> ASTRO</a>
+            <button class="navbar-toggler navbar-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-start hover1 paginas" href="pagina1.html">SOLAR</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-start hover1 paginas" href="pagina2.html">LUNAR</a>
+                    </li>
+                    <li class="nav-item me-5 paginas">
+                        <a class="nav-link text-start hover1 paginas active" aria-current="page" href="pagina3.html">CALENDARIO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5 contenedor">
+        <!-- Primer Titulo: Eclipses Solares -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <h1 class="card-body">Proximos Eclipses</h1>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12 d-md-flex align-items-center justify-content-center">
+                <div class="card p-3">
+                    <div class="card-body">
+                        <p class="card-text texto">
+                            Aqui encontraras las fechas de los próximos eclipses solares y lunares. No olviden marcar sus calendarios para no perderse estos increíbles eventos astronómicos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Primer Apartado: Calendario -->
+        <div class="row mb-5">
+            <div class="accordion col-12" >
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <h3>18 de septiembre de 2024</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Se producirá un eclipse lunar parcial. Este evento será visible en América del Norte, América del Sur, Europa, Asia Occidental y África.
+                            </p>
+                            <img src="CSS/Pagina3/ParcialL.png" class="accordion-body imagenelp" alt="Explicacion de Eclipse">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3>2 de octubre de 2024</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Se producirá un eclipse solar anular. Este fenómeno será visible en América del Sur, con un eclipse parcial visible en América del Sur, la Antártida, el Océano Pacífico, el Océano Atlántico y América del Norte.
+                            </p>
+                            <img src="CSS/Pagina3/Anular.png" class="accordion-body imagenelp" alt="Explicacion de Eclipse">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h3>25 de marzo de 2025</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Se producirá un eclipse lunar penumbral. Durante este evento, la Luna pasará por la penumbra de la Tierra, lo que provocará un sutil oscurecimiento de la Luna. Este eclipse será visible en todas las Américas.
+                            </p>
+                            <img src="CSS/Pagina3/Penumbral.png" class="accordion-body imagenelp" alt="Explicacion de Eclipse">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <h3>29 de marzo de 2025</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                Se producirá un eclipse solar parcial. Durante este fenómeno, la Luna cubrirá parcialmente el Sol. Este eclipse será visible en Europa, Asia, África, América del Norte y del Sur, Océano Atlántico y Océano Ártico.
+                            </p>
+                            <img src="CSS/Pagina3/ParcialSs.png" class="accordion-body imagenelp" alt="Explicacion de Eclipse">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <img src="CSS/Pagina3/Fases.png" class="img-fluid mb-5" alt="Descripción de la imagen">
+        </div>
+    </div>
+    <!-- Tercer apartado: Pie de Pagina-->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted"> Actividad de Laboratorio 6 - Lab. Programacion Web</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

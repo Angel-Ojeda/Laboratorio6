@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo01.css">
+    <link rel="icon" href="CSS/index/icono.png">
+    <title>Astro</title>
+</head>
+<body>
+    <!-- 3 párrafos, 3 imágenes y 2 componentes de Bootstrap -->
+    <nav class="navbar fondonav2 navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand me-md-5 marca hover2" href="index.html"> <img src="CSS/index/icono.png" alt="Icono" class="icono"> ASTRO</a>
+            <button class="navbar-toggler navbar-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-start hover2 paginas active" aria-current="page" href="pagina1.html">SOLAR</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-start hover2 paginas" href="pagina2.html">LUNAR</a>
+                    </li>
+                    <li class="nav-item me-5 paginas">
+                        <a class="nav-link text-start hover2 paginas" href="pagina3.html">CALENDARIO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5 contenedor">
+        <!-- Primer Titulo: Introduccion -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <h1 class="card-body">Eclipses Solares</h1>
+            </div>
+        </div>
+
+        <!-- Carusel de Eclipses Actuales -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="6000">
+                            <img src="CSS/Pagina1/Mazatlan.png" class="d-block w-100" alt=". . .">
+                            <div class="carousel-caption d-block text-start bottom-0 start-0">
+                                <h3>Mexico</h3>
+                                <p>Eclipse Total el 8 de Abril de 2024</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="CSS/Pagina1/Antárdida.png" class="d-block w-100" alt=". . .">
+                            <div class="carousel-caption d-block text-start bottom-0 start-0">
+                                <h3>Antárdida</h3>
+                                <p>Eclipse Total el 4 de Diciembre de 2021</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="CSS/Pagina1/Chile.png" class="d-block w-100" alt=". . .">
+                            <div class="carousel-caption d-block text-start bottom-0 start-0">
+                                <h3>Chile</h3>
+                                <p>Eclipse Total el 14 de Diciembre de 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Primer apartado: Primer Parrafo-->
+        <div class="row mb-3">
+            <div class="col-12 d-md-flex align-items-center justify-content-center">
+                <div class="card p-3">
+                    <div class="card-body">
+                        <h1 class="card-title">| ¿Que es?</h1>
+                        <p class="card-text texto">
+                            Un eclipse solar es un fenómeno astronómico que ocurre cuando la Luna se interpone entre la Tierra y el Sol, bloqueando total o parcialmente la luz del Sol hacia la Tierra. Este evento solo puede suceder durante la fase de luna nueva, cuando la Luna y el Sol están en conjunción según se observa desde la Tierra. Dependiendo de la ubicación geográfica y las circunstancias específicas, un eclipse solar puede ser total, parcial o anular.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Segundo apartado: Varias Definiciones-->
+        <div class="row mb-3">
+            <div class="col-12 mt-5 d-md-flex">
+                <div class="card flex-fill p-3">
+                    <h1 class="card-body">| Tipos</h1>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 d-flex">
+                <div class="card flex-fill">
+                    <div class="card-body">
+                        <h2>Total</h2>
+                        <p class="card-text texto">En este tipo de eclipse ocurre cuando la Luna se interpone completamente entre la Tierra y el Sol, bloqueando toda la luz solar. Durante un eclipse total, la sombra de la Luna cae sobre la Tierra y la región dentro de esta sombra experimenta una oscuridad temporal. Los eclipses solares totales son eventos raros y espectaculares que solo pueden ser observados desde una estrecha franja en la superficie de la Tierra.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 d-flex">
+                <div class="card flex-fill">
+                    <div class="card-body">
+                        <h2>Anular</h2>
+                        <p class="card-text texto">En este tipo de eclipse, la Luna también se encuentra entre la Tierra y el Sol, pero no es lo suficientemente grande para cubrir completamente el Sol. Esto se debe a que la órbita de la Luna alrededor de la Tierra es elíptica y su distancia a la Tierra varía. Cuando la Luna está más lejos de la Tierra, parece más pequeña en el cielo y no puede cubrir completamente el Sol, lo que resulta en un anillo brillante o “anillo de fuego” alrededor de la Luna</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 d-flex">
+                <div class="card flex-fill">
+                    <div class="card-body">
+                        <h2>Parcial</h2>
+                        <p class="card-text texto">En este tipo de eclipse, la Luna solo cubre una parte del Sol. Este tipo de eclipse puede ser observado desde una región mucho más amplia en comparación con los eclipses totales o anulares.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tercer apartado: Pie de Pagina-->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted"> Actividad de Laboratorio 6 - Lab. Programacion Web</span>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

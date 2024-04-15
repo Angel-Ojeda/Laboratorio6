@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(39, 37, 37);
+}
+
+.navbar-brand{
+    font-family: Tahoma;
+    color: #fdfdfd;
+    font-size: 55px;
+}
+
+.icono{
+    width: 60px;
+}
+
+.navbar .paginas{
+    font-size: 32px;
+    color: #fdfdfd;
+}
+
+.footer{
+    background-image: linear-gradient(to bottom, rgb(38, 37, 39), rgb(255, 255, 255) 40%);
+    font-size: 20px;
+    font-family: Tahoma;
+}
+
+/* Pagina: Index */
+
+.fondonav1{
+    background-image: linear-gradient(to top, rgb(38, 37, 39), #673dff 80%);
+    padding: 64px;
+}
+
+.hover1:hover{
+    color: rgb(125, 83, 241);
+}
+
+.contenedor h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid black
+}
+
+.contenedor h1{
+    background-color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.contenedor p{
+    font-family: sans-serif;
+    color: #070606;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* Pagina: Pagina1 */
+
+.fondonav2{
+    background-image: linear-gradient(to top, rgb(38, 37, 39), #ff6207 80%);
+    padding: 64px;
+}
+.hover2:hover{
+    color: rgb(231, 103, 28);
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding-left: 30px; 
+    color: #fff;
+}
+
+.carousel-caption h3 {
+    font-size: 32px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    color: #acacac;    
+}
+
+/* Pagina: Pagina2 */
+
+.fondonav3{
+    background-image: linear-gradient(to top, rgb(38, 37, 39), #5a1b1b 80%);
+    padding: 64px;
+}
+.hover3:hover{
+    color: rgb(85, 85, 85);
+}
+
+/* Pagina: Pagina3 */
+
+.imagenelp {
+    width: 500px;
+}
+
+/* Otros */
+
+.navbar .active{
+    color: #969696;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 25px;
+}

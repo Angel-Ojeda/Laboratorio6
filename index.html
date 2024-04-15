@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo01.css">
+    <link rel="icon" href="CSS/index/icono.png">
+    <title>Astro</title>
+</head>
+<body>
+    <!-- 3 párrafos, 3 imágenes y 2 componentes de Bootstrap -->
+    <nav class="navbar fondonav1 navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand me-md-5 hover1 marca" href="index.html"> <img src="CSS/index/icono.png" alt="Icono" class="icono"> ASTRO</a>
+            <button class="navbar-toggler navbar-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-start hover1 paginas" href="pagina1.html">SOLAR</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-start hover1 paginas" href="pagina2.html">LUNAR</a>
+                    </li>
+                    <li class="nav-item me-5 paginas">
+                        <a class="nav-link text-start hover1 paginas" href="pagina3.html">CALENDARIO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      
+    <div class="container mt-5 contenedor">
+        <!-- Primer Titulo: Introduccion -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <h1 class="card-body">Una introduccion al tema </h1>
+            </div>
+        </div>
+
+        <!-- Primer apartado: imagen a la derecha -->
+        <div class="row mb-3">
+            <div class="col-12 col-lg-5 order-2 order-md-2 mt-sm-5 d-md-flex align-items-center justify-content-center">
+                <div class="card">
+                    <img src="CSS/index/Parrafo1.jpg" alt="Eclipse" class="card-img-top img-fluid mx-auto d-block">
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 order-1 order-md-1 d-md-flex align-items-center justify-content-center">
+                <div class="card p-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Eclipse fascinante . . .</h2>
+                        <p class="card-text texto">
+                            Un evento astronómico que ocurre cuando un cuerpo celeste se interpone entre nosotros y una fuente de luz, bloqueando parcial o totalmente su brillo. Este fenómeno puede suceder entre cualquier conjunto de astros, pero generalmente nos referimos a los eclipses lunares y solares, dependiendo de si la Luna o el Sol quedan oscurecidos. Los eclipses ocurren debido a una confluencia de factores espaciales entre la Luna, la Tierra y el Sol, y se producen con una frecuencia determinada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      
+        <!-- Segundo apartado: imagen a la izquierda -->
+        <div class="row mb-3">
+            <div class="col-12 col-lg-5 order-2 order-lg-1 mt-sm-5 d-md-flex align-items-center justify-content-center">
+                <div class="card">
+                    <img src="CSS/index/Parrafo2.jpg" alt="Relatividad" class="card-img-top img-fluid mx-auto d-block">
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 order-1 order-lg-2 d-md-flex align-items-center justify-content-center">
+                <div class="card p-3">
+                    <div class="card-body">
+                        <h2 class="card-title">La importancia en la Ciencia</h2>
+                        <p class="card-text texto">
+                            Han sido fundamentales para el avance de la ciencia. Permitieron comprobar la teoría de la Relatividad de Albert Einstein, estudiar las capas externas del Sol y descubrir elementos como el helio. También han facilitado la investigación de la ionosfera terrestre y la exploración de eclipses en otros planetas del Sistema Solar. Además, los eclipses han sido esenciales para el análisis de planetas extrasolares, permitiendo examinar su tamaño, atmósfera y posibles anillos. En resumen, los eclipses han sido y siguen siendo una valiosa herramienta para la investigación científica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>          
+
+        <!-- Tercer apartado: imagen a la derecha -->
+        <div class="row mb-3">
+            <div class="col-12 col-lg-5 order-2 order-md-2 mt-sm-5 d-md-flex align-items-center justify-content-center">
+                <div class="card">
+                    <img src="CSS/index/Parrafo3.jpg" alt="Eclipse" class="card-img-top img-fluid mx-auto d-block">
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 order-1 order-md-1 d-md-flex align-items-center justify-content-center">
+                <div class="card p-3">
+                    <div class="card-body">
+                        <h2 class="card-title">La Ciencia Detras de la Prediccion</h2>
+                        <p class="card-text">
+                            Una hazaña importante es la predicción de los eclipses en la astronomía, basado en la mecánica celeste y cálculos matemáticos precisos. Los astrónomos utilizan modelos computacionales para predecir la posición de la Luna, la Tierra y el Sol. Los eclipses se rigen por ciclos predecibles conocidos como ‘saros’ e ‘inex’, permitiendo prever cuándo y dónde serán visibles los próximos eclipses. Hoy en día, herramientas como internet permiten conocer fácilmente cuándo inicia y termina un eclipse, y si será observable desde nuestra región.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segundo Titulo: Paginas Interesantes -->
+        <div class="row mt-5 mb-3">
+            <div class="col-12">
+                <h1 class="card-body">Paginas Interesantes</h1>
+            </div>
+        </div>
+
+        <!-- Paginas -->
+        <div class="row mb-5">
+            <div class="col-12 col-md-6 mt-5 d-flex">
+                <div class="card flex-fill">
+                    <img src="CSS/index/Relacionado1.png" class="card-img-top" alt="Eclipse 2022">
+                    <div class="card-body">
+                        <h5 class="card-title titulo">¿Qué es un eclipse solar híbrido? Así se vio el de abril de 2023</h5>
+                        <p class="card-text">Los eclipses solares híbridos ocurren menos de una vez por década y, justamente, en abril de 2023 fue posible disfrutar del primero desde 2013 y el último hasta 2031.</p>
+                        <a href="https://www.nationalgeographic.com.es/ciencia/donde-como-ver-ultimo-eclipse-hibrido-sol-hasta-2031_19777" class="btn hover1">Ir al sitio</a>
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 d-flex">
+                <div class="card flex-fill">
+                    <img src="CSS/index/Relacionado2.png" class="card-img-top" alt="Eclipse 2023">
+                    <div class="card-body">
+                      <h5 class="card-title titulo">Las mejores imágenes del eclipse de Luna de mayo de 2022</h5>
+                      <p class="card-text">La noche del 15 al 16 de mayo se produjo un eclipse de Luna que pudo contemplarse en Sudamérica, África, Europa y gran parte de Norteamérica. Aquí están las imágenes más bonitas de este evento astronómico.</p>
+                      <a href="https://www.nationalgeographic.com.es/ciencia/mejores-imagenes-eclipse-luna-mayo-2022_18262" class="btn hover1">Ir al sitio</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- Tercer apartado: Pie de Pagina-->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted"> Actividad de Laboratorio 6 - Lab. Programacion Web</span>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

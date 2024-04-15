@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo01.css">
+    <link rel="icon" href="CSS/index/icono.png">
+    <title>Astro</title>
+</head>
+<body>
+    <!-- 3 párrafos, 3 imágenes y 2 componentes de Bootstrap -->
+    <nav class="navbar fondonav3 navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand me-md-5 marca hover3" href="index.html"> <img src="CSS/index/icono.png" alt="Icono" class="icono"> ASTRO</a>
+            <button class="navbar-toggler navbar-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-start hover3 paginas" href="pagina1.html">SOLAR</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-start hover3 paginas active" aria-current="page" href="pagina2.html">LUNAR</a>
+                    </li>
+                    <li class="nav-item me-5 paginas">
+                        <a class="nav-link text-start hover3 paginas" href="pagina3.html">CALENDARIO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5 contenedor">
+        <!-- Primer Titulo: Introduccion -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <h1 class="card-body">Eclipses Lunares</h1>
+            </div>
+        </div>
+
+        <!-- Carusel de Eclipses Actuales -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="6000">
+                            <img src="CSS/Pagina2/Mexico.png" class="d-block w-100" alt=". . .">
+                            <div class="carousel-caption d-block text-start bottom-0 start-0">
+                                <h3>Mexico</h3>
+                                <p>Eclipse Total el 8 de Noviembre de 2022</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="CSS/Pagina2/Estados Unidos.png" class="d-block w-100" alt=". . .">
+                            <div class="carousel-caption d-block text-start bottom-0 start-0">
+                                <h3>Estados Unidos</h3>
+                                <p>Eclipse Casi Total el 19 de Noviembre de 2021</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="CSS/Pagina2/Sudafrica.png" class="d-block w-100" alt=". . .">
+                            <div class="carousel-caption d-block text-start bottom-0 start-0">
+                                <h3>Sudafrica</h3>
+                                <p>Eclipse Penumbral el 5 de Junio de 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Primer apartado: Primer Parrafo-->
+        <div class="row mb-3">
+            <div class="col-12 d-md-flex align-items-center justify-content-center">
+                <div class="card p-3">
+                    <div class="card-body">
+                        <h1 class="card-title">| ¿Que es?</h1>
+                        <p class="card-text texto">
+                            Un eclipse lunar es un fenómeno astronómico que ocurre cuando la Tierra se interpone entre el Sol y la Luna, causando que la Luna se oscurezca debido a que la sombra de la Tierra bloquea la luz solar directa. Este evento solo puede suceder durante la fase de luna llena, cuando los tres cuerpos celestes, la Tierra, la Luna y el Sol, están alineados o muy cerca de estarlo. Los eclipses lunares pueden ser observados desde cualquier lugar del mundo donde sea de noche y su duración se extiende a lo largo de varias horas.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Segundo apartado: Varias Definiciones-->
+        <div class="row mb-3">
+            <div class="col-12 mt-5 d-md-flex">
+                <div class="card flex-fill p-3">
+                    <h1 class="card-body">| Tipos</h1>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 d-flex">
+                <div class="card flex-fill">
+                    <div class="card-body">
+                        <h2>Total</h2>
+                        <p class="card-text texto">Este ocurre cuando la Luna pasa completamente por la umbra, que es la parte más oscura y central de la sombra de la Tierra. Durante este tipo de eclipse, la Luna puede adquirir un color rojizo, fenómeno conocido como “Luna de sangre”. Esto se debe a la refracción de la luz solar en la atmósfera de la Tierra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 d-flex">
+                <div class="card flex-fill">
+                    <div class="card-body">
+                        <h2>Parcial</h2>
+                        <p class="card-text texto">En este tipo de eclipse, solo una parte de la Luna pasa por la umbra de la Tierra. Como resultado, solo una porción de la Luna se oscurece mientras que el resto permanece iluminado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-5 d-flex">
+                <div class="card flex-fill">
+                    <div class="card-body">
+                        <h2>Penumbral</h2>
+                        <p class="card-text texto"> Este es el tipo de eclipse más sutil. Ocurre cuando la Luna pasa por la penumbra de la Tierra, que es la parte más externa y difusa de la sombra. Durante un eclipse penumbral, solo una porción de la luz solar es bloqueada y la Luna solo se oscurece un poco.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tercer apartado: Pie de Pagina-->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted"> Actividad de Laboratorio 6 - Lab. Programacion Web</span>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
